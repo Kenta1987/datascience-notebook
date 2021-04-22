@@ -1,5 +1,7 @@
 FROM jupyter/datascience-notebook
 
+USER root
+
 # Install python library
 RUN pip3 install xgboost
 
