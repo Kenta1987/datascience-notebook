@@ -16,4 +16,4 @@ RUN pip install jupyter-nbextensions-configurator
 
 RUN jupyter contrib nbextension install
 RUN jupyter nbextensions_configurator enable
-RUN jupyter Hinterland enable
+RUN jupyter nbextension enable hinterland
